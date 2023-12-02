@@ -415,6 +415,24 @@
     margin-left: 0;
     text-align: center;
   }
+
+  /* Note */
+
+  .note {
+    left: 50%;
+    max-width: 70%;
+  }
+
+  .note-form {
+    padding: 0;
+  }
+
+  .note-form__input_sum,
+  .note-form__input_date,
+  .note-form__input_category,
+  .note-form__input_txt {
+    width: 80%;
+  }
 }
 
 @media (max-width: 650px) {
@@ -449,5 +467,24 @@
   .expense-field__button_filter {
     grid-column: 1/4;
     grid-row: 4/4;
+  }
+
+  /* Note */
+
+  .note {
+    max-width: 100%;
+  }
+
+  .note-form__input_sum,
+  .note-form__input_date,
+  .note-form__input_category,
+  .note-form__input_txt {
+    width: 90%;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .note-form__submit {
+    width: 60%;
   }
 }
