@@ -119,7 +119,7 @@ function renderExpenseField(array) {
       <div class="expense-field__info" id="place">${i + 1}</div>
       <div class="expense-field__info">${category}</div>
       <div class="expense-field__info">${value}</div>
-      <div class="expense-field__info">${date}</div>
+      <div class="expense-field__info expense-field__info-date">${date}</div>
       <div class="expense-field__info expense-field__button_description">${description}</div>
       <button class="expense-field__button expense-field__button_edit">Edit</button>
       <button class="expense-field__button expense-field__button_remove">Remove</button>
@@ -152,7 +152,7 @@ function addMark(mark) {
       <div class="expense-field__info" id="place">${dataNote.length}</div>
       <div class="expense-field__info">${category}</div>
       <div class="expense-field__info">${value}</div>
-      <div class="expense-field__info">${date}</div>
+      <div class="expense-field__info expense-field__info-date">${date}</div>
       <div class="expense-field__info expense-field__button_description">${description}</div>
       <button class="expense-field__button expense-field__button_edit">Edit</button>
       <button class="expense-field__button expense-field__button_remove">Remove</button>
