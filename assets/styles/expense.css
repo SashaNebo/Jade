@@ -433,6 +433,17 @@
   .note-form__input_txt {
     width: 80%;
   }
+
+  /* Filter */
+
+  .filter {
+    left: 50%;
+  }
+
+  .filter__content {
+    padding: 20px;
+    row-gap: 40px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -486,5 +497,13 @@
 
   .note-form__submit {
     width: 60%;
+  }
+
+  /* Filter */
+  .value__wrapper,
+  .category__wrapper {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
   }
 }
