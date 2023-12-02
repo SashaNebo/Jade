@@ -149,3 +149,49 @@
 .selected__option {
   font-weight: 400;
 }
+
+@media (max-width: 1550px) {
+  .selected {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 0;
+  }
+
+  .selected__change {
+    align-self: center;
+    justify-self: center;
+    margin-top: 20px;
+  }
+
+  .convert__form {
+    width: 60%;
+  }
+}
+
+@media (max-width: 950px) {
+
+  .convert__content {
+    width: 100%;
+  }
+
+  .convert__form {
+    gap: 20px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 650px) {
+
+  .selected {
+    row-gap: 10px;
+  }
+
+  .convert__form {
+    width: 75%;
+  }
+
+  .put {
+    display: none;
+  }
+}
