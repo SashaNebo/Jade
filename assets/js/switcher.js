@@ -39,8 +39,8 @@ function renderExpense() {
             <div class="expense-field__info">№</div>
             <div class="expense-field__info">Category</div>
             <div class="expense-field__info">Price</div>
-            <div class="expense-field__info">Date</div>
-            <div class="expense-field__info">Description</div>
+            <div class="expense-field__info expense-field__info-date">Date</div>
+            <div class="expense-field__info expense-field__button_description">Description</div>
             <button class="expense-field__button expense-field__button_filter">Filter</button>
             <div class="expense-field__info expense-field__info-currency">${currency}</div>
           </div>
