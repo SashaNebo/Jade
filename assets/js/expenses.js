@@ -80,6 +80,7 @@ function fillInputValue() {
   mark.category = currentData.category
   mark.value = currentData.value
   mark.date = currentData.date
+  mark.description = currentData.description
 
   const dataInput = dataNote.filter(d => d.id === markId)[0]
 
